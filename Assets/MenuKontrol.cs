@@ -12,7 +12,8 @@ public class MenuKontrol : MonoBehaviour
 
     public void cik()
     {
-        Application.Quit();
+        Application.CancelQuit();
+
     }
 
 }
